@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace EntityFramework
 {
-    public class TrainingDbContext
+    public class TrainingDbContext : DbContext
     {
 
     }
